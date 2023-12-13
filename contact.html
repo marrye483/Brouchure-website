@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.0-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="banner">
+        <div class="container">
+        <nav>
+            <h1>AMA<span>ZON</span></h1>
+            <div class="navbar">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="product.html">PRODUCT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    </nav>
+
+    <div class="contact">
+        <h1>Contact Us</h1>
+    </div>
+</div>
+    </section>
+    <section class="location">
+        <div class="container">
+         <h2>Location</h2>
+        <div class="google-map container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d494.54409514502197!2d3.966558132499621!3d7.426157289222617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1701854946502!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+       <div class="joint">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12"><h3 class="g"> <img src="./pif/address.jpg"> General gas</h3><p>Bodmas junction along general gas road </p>
+            <h3 class="g"> <img src="./pif/address.jpg"> Ojurin Akobo</h3><p>At the front of foodco restaurant</p>
+            <h3 class="g"> <img src="./pif/address.jpg" > General gas</h3><p>Beside valencia juniour school </p>
+            <h3 class="g"> <img src="./pif/tele.JPG" > 09155000260</h3><p>Monday to saturday 8am-6pm </p>
+            <h3 class="g"> <img src="./pif/email.jpg" > adebisimary1212@gmail.com</h3><p>Email us what you want or on any request</p></div>
+            <div class="col-lg-6 col-sm-12">
+            <div class="formcolor">
+                
+                <form action="https://formspree.io/f/xjvqqwjr" method="POST">
+                    <div class="mb-3 background-size-10">
+                         <input type="text" name="fullname" placeholder="enter your  full name"> <br>
+                <input type="email" name="email" id="email" placeholder="enter your email address"> <br>
+                <input type="text" name="request" id="request" placeholder="enter your request"> <br>
+                <textarea name="coments" id="comments" placeholder="Message" maxlength="500"></textarea><br>
+                      <button type="submit">Send Message</butt0on>
+                      </div>
+                      
+               
+                </form>              
+              
+                   
+        
+       </div>
+      
+        <a href="https://maps.app.goo.gl/VmAUnXqXTkdG4Hds5"></a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <style>
+    .banner{
+        min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),#04091eb3),url("./pif/images\ \(6\)..jpeg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+        position: relative;
+
+    }
+    .contact {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: larger;
+        text-align: center;
+        padding-top: 200px;
+    }
+    .location{
+        padding-top: 40px;
+        text-align: left;
+        padding-left: 30px;
+    }
+    /* .google-map{
+        padding-bottom: 50%;
+        position: relative;
+    }
+    .google-map iframe{
+        height: 100%;
+        width: 100%;
+        left: 0;
+        right: 0;
+        position: absolute
+    } */
+    .location h2{
+        padding-bottom: 40px;
+    }
+    .location  h3{
+        line-height: 50px;
+        padding-left: 1px;
+        
+    }
+    .location p{
+        line-height: 10px;
+        font-size: small;
+        padding-left: 20px;
+    }
+    .location img{
+        margin-top: 40px;
+        width: 15px;
+    }
+    .location .comments{
+        justify-content: space-around;
+        box-sizing: border-box;
+        padding-right: 10px;
+
+    }
+    /* .location input{
+            margin-bottom: 10px; 
+             width: 400px; 
+             height: 30px; 
+         padding-left: 5px;
+    }
+    .location textarea{
+         width: 400px; 
+         height: 100px; 
+         padding-left: 5px; 
+    }
+    .location button{
+        margin-left: 295px;
+        text-align: center;
+        margin-top: 3px;
+    } */ 
+    
+    .joint{
+        margin-top: 60px;
+    }
+    .formcolor{
+        background-color: burlywood;
+        align-items: center;
+        display: flex;
+        /* margin-right: 500px; */
+        margin-top: 55px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        /* padding-right: 10px; */
+        padding-left: 60px;
+    }
+
+    @media screen and (max-width:425px) and (min-width:320px) {
+        .formcolor{
+        background-color: burlywood;
+        align-items: center;
+        display: flex;
+        /* margin-right: 500px; */
+        /* margin-top: 55px; */
+        padding-top: 50px;
+        padding-bottom: 30px;
+        /* padding-right: 10px; */
+        padding-left: 0px;
+    }
+
+        
+    }
+    </style>
+    <section class="social">
+        <div class="container">
+        <h2>About US </h2>
+        <p>At Amazon duvet,rug,pillow and interior decoration,we understand the essence of a restful haven and that's why we present the perfect trio to transform  <br>your space into a sanctuary of comfort duvet, pillow and rug</p>
+        <div class="row">
+            <div class="col-sm-3 col-lg-3 col-md-3"> <img src="./pif/facebook_2168281.png" class="log"><h6 class="a1">ObiwusiTemitope</h6></div>
+            <div class="col-sm-3 col-lg-3 col-md-3"> <img src="./pif/social-media_6433684.png" class="log1"><h6 class="a2">Obiwusi2356</h6></div>
+            <div class="col-sm-3 col-lg-3 col-md-3"> <img src="./pif/twitter.png" class="log2"><h6 class="a3">@Obiwusitemi4567</h6></div>
+            <div class="col-sm-3 col-lg-3 col-md-3"> <img src="./pif/youtube_1384028.png" class="log3"><h6 class="a4">Temitope459</h6></div>
+        </div>
+    </div>
+        </section>
+</body>
+</html>

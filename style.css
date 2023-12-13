@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    max-width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),#04091eb3),url(./pif/download\ \(2\).jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    position: relative;
+
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    color: white;
+    font-style: italic;
+    /* padding-left: 20px; */
+    padding-top: 20px;
+}
+nav span{
+    color: palevioletred;
+}
+.navbar{
+    text-align: right;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+}
+
+nav a{
+    text-decoration-line: none;
+    color: white;
+}
+
+.head h1{
+    padding-top: 200px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.head h1 .headspan{
+        text-align: center;
+        color: white;
+        font-size:  20px;
+        opacity: 70%;
+        line-height: 20px;
+     
+}
+/***
+
+button{
+    padding: 10px;
+    background-color: transparent;
+    margin-left: 45%;
+    margin-top: 30px;
+}
+button a{
+    color: white;
+    text-decoration-line: none;
+}
+button:hover{
+    background-color: palevioletred;
+    color: white;
+    z-index: 1;
+
+}
+***/
+.word h3{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    line-height: 25px;
+}
+.word span{
+    opacity: 20%;
+}
+.word .col-4{
+   text-align: center;
+   padding-left: 30px;
+   padding-right: 30px;
+
+   
+}
+/** shaping of three column  **/
+.word .bold{
+    line-height: 50px;
+}
+.word .duvet{
+    background-color: grey;
+    padding: 40px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.word .rug{
+    background-color: grey;
+    padding: 40px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.word .fibrepillow {
+    background-color: grey;
+    padding: 40px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.read h2{
+    padding-top: 30px;
+    width: 50%;
+    margin-left: 3%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.row .col-4 img{
+    margin-top: 5px;
+    margin-bottom: 100px;
+    max-height: 60vh;
+    width: 350px;
+    padding: 15px;
+    justify-content: space-between;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+
+.Rugg img{
+    margin-top: 50px;
+    max-height: 60vh;
+    width: 500px;
+    padding: 20px;
+    justify-content: space-between;
+    margin-left: 30px;
+    border-radius: 10%;
+}
+footer{
+    height: 250px;
+    width: auto;
+    color: black;
+    line-height: 10px;
+    padding-bottom: 20px;
+}
+.small{
+    padding-top: 20px;
+}
+.social h2{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.social p{
+    text-align: center;
+    padding-bottom: 30px;
+    line-height: 20px;
+}
+.social img{
+    width: 20px;
+    height: 20px;
+    
+}
+.social h6{
+    color: black;
+    padding-bottom: 20px;
+}
+/* .social .log{
+    padding-left: 330px;
+}
+.social .log1{
+    padding-left: 200px;
+}
+.social .log2{
+    padding-left: 100px;
+}
+.social .log3{
+    margin-right: 200px;
+}
+.a1{
+    padding-left: 300px;
+    padding-top: 10px;
+}
+.a2{
+    padding-left: 170px;
+    padding-top: 10px;
+}
+.a3{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.a4{
+   padding-right: -10px; 
+   padding-top: 10px;
+} */
+
+/***Testimonials****/
+.testimonial{
+    width: 80%;
+    margin: auto;
+    padding-top: 0px;
+    text-align: center;
+}
+.testimonial h1{
+    margin: auto;
+    padding-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.testimonial img{
+    width: 60px;
+    height: 50px;
+    border-radius: 200px;
+    margin-right: 1px;
+}
+.testimonial .col-4{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.testimonial .row{
+    padding-top: 15px;
+}
+nav .fa{
+    display: none;
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+    .navbar ul li{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        background-color: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+   /***
+    nav .fa
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+      } 
+ ***/
+        
+        .head h1{
+            font-size: 15px;
+            text-align: center;
+            line-height: 15px;   
+}
+        .head h1 .headspan{
+            text-align: center;
+            font-size:  10px;
+            line-height: 15px;
+        
+}
+
+
+}
